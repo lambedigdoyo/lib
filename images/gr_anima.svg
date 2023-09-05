@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="gr_anima" viewBox="0 0 160 160" width="360" height="360">
+<rect x="0" y="0" width="160" height="160" fill="rgba(255,55,135,0.1)" stroke-width="0" stroke="none"/>
+<circle cx="79" cy="79" r="74" stroke="red" fill="maroon" stroke-width="8"/>
+  <rect x="19" y="19" width="120" height="120" fill="rgba(65,165,255,0.4" stroke-width="4" stroke="olive"/>
+  <circle cx="80" cy="80" r="35" stroke="orange" fill="darkblue" stroke-width="4">
+  <animate attributeName="r" values="35;35;35;55;35;42;35;35;35;20;0;0;0" dur="9s" repeatCount="indefinite" />
+  </circle>
+  <text x="80" y="95" fill="white" font-size="42" font-weight="bold" text-anchor="middle">GR</text>
+</svg>
