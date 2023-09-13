@@ -1,0 +1,10 @@
+﻿<svg id="xx" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="250">
+<style>#grSmall{transform: translate(-15px, 55px) rotate(-20deg); text-shadow: 1px 1px 1px #000, -1px -1px 1px #000} #grBig{text-shadow: 2px 2px 2px #000, -2px -2px 2px #000, 0 0 12px #000; opacity: 0.7}</style>
+  <rect x="0" y="0" rx="15" ry="15" width="300" height="150" stroke-width="2" stroke="#A14225" fill="#5B8889"/>
+  <rect width="292" height="142" fill="#064009" fill-opacity="0.7" x="4" y="4" rx="11" ry="11" stroke-width="1" stroke="#fff"/>
+  <ellipse ry="60" rx="132" cx="150" cy="73" fill="#eee" fill-opacity="0.4" stroke-width="4" stroke="#eee"/>
+  <ellipse ry="60" rx="132" cx="150" cy="73" fill="#7CB473" fill-opacity="0.9" stroke-width="2" stroke="#333"/>
+  <circle id="grCircle" cx="150" cy="75" r="55" fill="#1C5303"/>
+  <text id="grSmall" font-weight="bolder" font-size="30px" font-family="Times" fill="#6cf" x="148" y="82" text-anchor="middle">@gubhugreyot</text> 
+  <text id="grBig" font-size="110px" font-weight="bolder" font-family="Times" fill="red" x="150" y="112" fill-opacity="0.9" text-anchor="middle">GR</text>
+</svg>
