@@ -1,0 +1,66 @@
+﻿/* grPelangi-G30S23.css pretty-printing styles. Used with grPelangi.js  */ 
+/* == Lereng Sindoro akhir September 2023 == gubhugreyot - Lambedigdoyo === */
+pre .str, code .str { color: #68FC5E; } /* string */
+pre .str:hover, code .str:hover { color: red }
+pre .kwd, code .kwd { color: #fFA4fA; } /* keyword */
+pre .com, code .com { color: #999; background: rgba(155,155,155,0.3); font-family: Arial} 
+pre .com:hover, code .com:hover {color: yellow; background-color: #333;} /* comment */
+pre .typ, code .typ { color: #FB5F5F; } /* type */
+pre .lit, code .lit { color: #ECD838;} /* literal */
+pre .pun, code .pun { color: #d7Af7E; } /* punctuation  */
+pre .pln, code .pln { color: #faFec4; color: #FAFCd4} /* plaintext */
+pre .tag, code .tag { color: #8af6ef} /* html/xml */
+pre .htm, code .htm { color: #dda0dd; } /* html tag */
+pre .xsl, code .xsl { color: #d0a0d0; } /* xslt tag */
+pre .atn, code .atn { color: gold; color: #FB6767;} /* html/xml attribute name */
+pre .atv, code .atv { color: #D2F8A4; color: #67F8B4; color: #678EF8} /* html/xml attribute value - */
+pre .dec, code .dec { color: #C6A4F8; } /* decimal - DOCTYPE */
+a { text-decoration: none;}
+pre.grpelangi, code.grpelangi {
+  font: normal 14px Consolas, Monospace;
+  background-color: #0f0f0f; background-color: #010013;
+  width: 100%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+pre.grpelangi {
+  padding: 0.2em;
+  margin: 1em auto;
+  border-radius: 6px;
+  max-height: 90%;
+  overflow: auto;
+}
+pre.grpelangi a, code.grpelangi a {
+   text-decoration:none;
+}
+/* Specify class=linenums on a pre to get line numbering; line numbers themselves are the same color as punctuation */
+
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #bbb; } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none ; color: #777;}
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
+/* print is mostly unchanged from default at present  */
+li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{list-style-type: decimal; }
+li.L1, li.L3, li.L5, li.L7, li.L9 {background-color: rgba(110, 120, 110, 0.1);}
+pre.grpelangi ol.linenums{ 
+  float: left; 
+  min-width: 100%;
+  padding-top: 10px;
+  padding-bottom; 10px;
+  }
+@media print {
+pre.grpelangi, code.grpelangi { background-color: #fff;  }
+pre .str, code .str { color: #088; }
+pre .kwd, code .kwd { color: #006; font-weight: bold; }
+pre .com, code .com { color: #0c3; font-style: italic; }
+pre .typ, code .typ { color: #404; font-weight: bold; }
+pre .lit, code .lit { color: #044; }
+pre .pun, code .pun { color: #440; }
+pre .pln, code .pln { color: #000; }
+pre .tag, code .tag { color: #b66ff7; font-weight: bold; }
+pre .htm, code .htm { color: #606; font-weight: bold; }
+pre .xsl, code .xsl { color: #606; font-weight: bold; }
+pre .atn, code .atn { color: #c71585;  font-weight: normal; }
+pre .atv, code .atv { color: #088;  font-weight: normal; }
+}
