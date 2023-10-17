@@ -83,12 +83,12 @@
         if (l !== x) {
           var k = z.createElement("link");
           k.rel = "stylesheet";
-          k.type = "text/css";
+        /*  k.type = "text/css"; */
           l + 1 < x && (k.error = k.onerror = function () {
             r(l + 1)
           });
           k.href = g[l];
-          N.appendChild(k)
+          N.appendChild(k) + '\n\n'
         }
       }
       var x = g.length;
