@@ -88,7 +88,8 @@
             r(l + 1)
           });
           k.href = g[l];
-          N.appendChild(k) + '\n\n'
+          /* N.appendChild(k) */
+            document.querySelector('head').appendChild(k)
         }
       }
       var x = g.length;
